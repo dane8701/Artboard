@@ -1,0 +1,253 @@
+*, *::after, *::before{
+    box-sizing: content-box;
+}
+
+.container{
+    margin-right: 10px;
+    margin-left: 10px;
+    font-family: sans-serif;
+    text-align: left;
+
+}
+.header{
+    position: fix;
+    top: 0;
+    left: 0;
+    display: flex;
+}
+
+#buttonMenu {
+    cursor:pointer;
+}
+.buttonMenu .bar1, .buttonMenu .bar2, .buttonMenu .bar3{
+    width:32px; 
+    height:5px; 
+    background-color:#000000; 
+    margin:6px 0; 
+    transition:0.4s;
+}
+/* .buttonMenu:hover {
+    opacity:.75; 
+    transition:.5s;
+}
+.buttonMenu.clicked .bar1 {
+    -webkit-transform:rotate(-45deg) translate(-9px, 6px); 
+    transform:rotate(-45deg) translate(-9px, 6px);
+}
+
+.buttonMenu.clicked .bar2 {
+    opacity: 0;
+}
+.buttonMenu.clicked .bar3 {
+    -webkit-transform:rotate(45deg) translate(-8px, -8px); 
+    transform:rotate(45deg) translate(-8px, -8px);
+} */
+
+.buttonProfil{
+    margin-left: auto;
+    font-size: 50px;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 50px;
+    border-color: orange;
+    background-color: #8d88cf;
+    text-align: center;
+    vertical-align:middle;
+    display: flex;
+    width: 50px;
+}
+
+.titreCategorie{
+    display: flex;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align:middle;
+}
+
+.texte1{
+    height: auto;
+    width: 240px;
+    font-size: 13px;
+    border-radius: 50px;
+    margin-top : 10px;
+}
+
+.texte2{
+    height: auto;
+    width: auto;
+    font-size: 15px;
+    border-radius: 50px;
+}
+
+.type1{
+    display: flex;
+    background-color:#fae6d6;
+    border-radius: 50px;
+    margin-left: 20px;
+    margin-top: 30px;
+    height: 60px;
+    width: 90px;
+    text-align: center;
+    vertical-align:middle;
+    display: table-cell;
+    color: #b0b0ad;
+}
+
+.type2{
+    display: flex;
+    background-color:#dbdbd7;
+    border-radius: 50px;
+    margin-left: 20px;
+    margin-top: 30px;
+    text-align: center;
+    vertical-align:middle;
+    display: table-cell;
+    height: 60px;
+    width: 90px;
+    color: #b0b0ad;
+}
+
+input{
+    background-color: #f6f6f4;
+    font-size: 25px;
+    color : #b0b0ad;
+    border: #f6f6f4;
+    border-radius: 50px;
+    outline: none;
+}
+
+.search{
+    display: flex;
+    background-color: #f6f6f4;
+    border-radius: 50px; 
+}
+
+.specialiste{
+    display: flex;
+    border-radius: 50px;
+}
+
+.specialiste1{
+    width: 150px;;
+    height: auto;
+    display: flex;
+    background-color: white;
+    border-radius: 18px;
+    border-color: rgb(202, 201, 201);
+    border-width: 1px;
+    border-style: solid;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.specialiste2{
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+    height: auto;
+    display: flex;
+    background-color: white;
+    border-radius: 18px;
+    border-color: rgb(202, 201, 201);
+    border-width: 1px;
+    border-style: solid;
+    font-size: 20px;
+}
+
+.textSpecialiste{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: large;
+}
+
+.logo1, .logo2{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    border-radius: 50px;
+    text-align: center;
+    vertical-align:middle;
+    display: table-cell;
+}
+
+.logo1{
+    background-color: #9dcef9;
+}
+
+.logo2{
+    background-color: #f2a7f2;
+}
+
+.choixCategorie{
+    margin-left: 30px;
+    margin-right: 30px;
+    display: flex;
+    overflow-y: hidden;
+    grid-template-columns: repeat(4, 100%);
+    will-change: transform;
+    align-content: center;
+    overflow-x: 1;
+    scroll-snap-coordinate: 0 0;
+    scroll-snap-points-x: repeat(100%);
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+}
+
+.choixCategorie div {
+  scroll-snap-align: start;
+}
+
+.categorie1, .categorie2, .categorie3, .categorie4, .categorie5{
+    height: 220px;
+    min-width: 100%;
+    background-color: yellow;
+    border-radius: 18px;
+    margin-left: 10px;
+    margin-right: auto;
+    text-align: left;
+    display: block;
+    color: white;
+    padding: 5px;
+}
+
+.texte1{
+    font-size: 18px;
+}
+
+.categorie1{
+    background-color: #e091c9;    
+}
+
+.categorie2{
+    background-color: #fab87c;
+}
+
+.categorie3{
+    background-color: #f69383;
+}
+
+.categorie4{
+    background-color: #e091c9;
+}
+
+.categorie5{
+    background-color: #fab87c;
+}
+
+.texteCategorie1, .texteCategorie2, .texteCategorie3, .texteCategorie4, .texteCategorie5{
+    height: 100%;
+    width: 100%;
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 20px;
+    text-align: justify;
+}
