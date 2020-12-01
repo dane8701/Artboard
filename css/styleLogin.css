@@ -60,7 +60,7 @@
     background: orange;
 }
 
-.iconUser{
+.imgUser{
     width: 100px;
     height: 100px;
     border-radius: 50%;
@@ -134,7 +134,7 @@ form{
     text-decoration: none;
 }
 
-.iconSign{
+.imgSign{
     height: 50px;
     width: 50px;
     margin-bottom: 15px;
