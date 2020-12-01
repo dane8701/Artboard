@@ -22,6 +22,19 @@
     margin-bottom: 10%;
 }
 
+.footer{
+    position: fix;
+    bottom: 0;
+    left: 0;
+}
+
+#logOut{
+    text-align: center;
+    margin-top: 90%;
+    margin-left: 80%;
+    font-size: large;
+    font-weight: 30px;
+}
 .buttonMenu .bar1, .buttonMenu .bar2, .buttonMenu .bar3{
     width:32px; 
     height:5px; 

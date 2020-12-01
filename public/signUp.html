@@ -19,31 +19,22 @@
 
             </div>
         </div>
-        <div class="texte">
-            <h1>Sign Up</h1>
-            it's quick and easy
-        </div>
-        <div class="vide">
-
-        </div>
-        <div class="nom">
-            <div class="first">
+        <div class="signBox">
+            <form>
+                <img src="../icon/user.png" class="iconUser">
+                <h2>Sign Up</h2>
+                C'est simple et rapide
+                <br /><br />
                 <input id="textBox1" type="text" value="" placeholder="First name">
-            </div>
-            <div class="last">
+                <br /><br />
                 <input id="textBox2" type="text" value="" placeholder="Last name">
-            </div>
-        </div>
-        <div class="email">
-            <input id="textBox3" type="text" value="" placeholder="Adress E-mail">
-        </div>
-        <div class="password">
-            <input id="textBox4" type="text" value="" placeholder="Password">
-        </div>
-        <div class="birthday">
-            Date de naissance
-            <div class="mois">
-                <select aria-label="Month" name="birthday_month" id="month" title="Month" class="_9407 _5dba _9hk6 _8esg">
+                <br /><br />
+                <input id="textBox3" type="text" value="" placeholder="Adress E-mail">
+                <br /><br />
+                <input id="textBox4" type="text" value="" placeholder="Password">
+                <br /><br />
+                Date de naissance &nbsp &nbsp
+                <select aria-label="Month" name="birthday_month" id="month" title="Month" >
                     <option value="0">Month</option>
                     <option value="1" selected="1">Jan</option>
                     <option value="2">Feb</option>
@@ -58,8 +49,7 @@
                     <option value="11">Nov</option>
                     <option value="12">Dec</option>
                 </select>
-            </div>
-            <div class="jour">
+                &nbsp
                 <select aria-label="Day" name="birthday_day" id="day" title="Day">
                     <option value="0">Day</option>
                     <option value="1" selected="1">1</option>
@@ -94,9 +84,8 @@
                     <option value="30">30</option>
                     <option value="31">31</option>
                 </select>
-            </div>
-            <div class="annee">
-                <select aria-label="Year" name="birthday_year" id="year" title="Year" class="_9407 _5dba _9hk6 _8esg">
+                &nbsp
+                <select aria-label="Year" name="birthday_year" id="year" title="Year">
                     <option value="0">Year</option>
                     <option value="2020" selected="1">2020</option>
                     <option value="2019">2019</option>
@@ -215,31 +204,30 @@
                     <option value="1906">1906</option>
                     <option value="1905">1905</option>
                 </select>
-            </div>
-        </div>
-        <div class="genre">
-            <label id="texteGenre1">Genre</label>
-            <div class="male">
-                <label class="texteGenre">Male</label>
-                <input type="radio" name="sex" value="1" id="u_2_5">
-            </div>
-            <div class="female">
-                <label class="texteGenre">Female</label>
-                <input type="radio" name="sex" value="2" id="u_2_4">
-            </div>
-        </div>
-        <div class="text2">
-            <input type="checkbox" id="checkBox">
-            J'accepte les conditions d'utilisation et de confidentialité de l'application.
-        </div>
-        <div class="button">
-            <button id="buttonValider">Sign Up</button>
-            <br/>
-            <a href="login.html">
-                <label id="text3">
-                    Vous avez déjà un compte ?
-                </label>
-            </a>
+                <br /><br />
+                <div class="genre">
+                    <label id="texteGenre1">Genre</label>
+                    <label class="texteGenre">
+                        Male
+                        <input type="radio" name="sex" value="1">
+                    </label>
+                    <label class="texteGenre">
+                        Female
+                        <input type="radio" name="sex" value="2">
+                    </label>
+                </div>
+                <br /><br />
+                <div align="justify">
+                    <input type="checkbox" id="checkBox">
+                    J'accepte les conditions d'utilisation et de confidentialité de l'application.
+                </div>
+                <br /><br />
+                <input type="submit" id="buttonValider" value="Crée un compte">
+                <br /><br />
+                <div align="right" id="link">
+                    <a href="login.html">Vous avez déjà un compte ?</a>
+                </div>
+            </form>
         </div>
     </div>
 </body>
