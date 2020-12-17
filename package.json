@@ -1,0 +1,29 @@
+{
+  "name": "artboard",
+  "version": "1.0.0",
+  "description": "Une intégration reussite",
+  "main": "index.js",
+  "scripts": {
+    "test": "nmp start",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dane8701/Artboard.git"
+  },
+  "author": "Dr Dane",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dane8701/Artboard/issues"
+  },
+  "homepage": "https://github.com/dane8701/Artboard#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "ejs": "^2.7.4",
+    "express": "^4.17.1",
+    "mongoose": "^5.11.0",
+    "nodemon": "^1.19.4",
+    "restify": "^8.5.1"
+  }
+}
